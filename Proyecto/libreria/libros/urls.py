@@ -1,6 +1,7 @@
-from django.urls import path
-from . import views
+from rest_framework.routers import DefaultRouter
+from .viewsets import *
 
-urlpatterns = [
-    path('', views.landing, name="landing"),
-]
+router = DefaultRouter()
+router.register("libros", LibroViewSet)
+
+urlpatterns = router.urls
