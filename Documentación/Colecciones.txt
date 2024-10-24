@@ -1,0 +1,5 @@
+Libros: titulo, autor, genero, fecha de publicación, descripción, cantidad de copias disponibles, imagen, estado
+Préstamos: lector, libro(s), fecha de préstamo, fecha de devolución, estado
+Deudas: lector, fecha, valor, razón, estado
+Lectores: nombres, apellidos, direccionde residencia, teléfono de contacto, correo electrónico, fecha de nacimiento, tipo de identificación, numero de identificación, contraseña, estado
+Administradores: nombres, apellidos, direccionde residencia, teléfono de contacto, correo electrónico, fecha de nacimiento, tipo de identificación, numero de identificación, contraseña, estado
