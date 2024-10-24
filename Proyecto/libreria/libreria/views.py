@@ -1,4 +1,4 @@
 from django.shortcuts import render
 
-def inicio(request):
+def landing(request):
     return render(request, "base.html")
