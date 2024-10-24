@@ -1,0 +1,26 @@
+Módulo de préstamo de libros
+- Adicionar a la canasta (2)
+- Realizar préstamo (2)
+- Ver historial de préstamos (2) YA
+
+Módulo de usuarios
+- Registrar lector (1) YA
+- Iniciar sesión (1) YA
+- Cambio de contraseña (3) YA
+- Gestionar perfil de lector (2) YA
+- Editar perfil de lector (2) YA
+- Ver historial de deudas (2) YA
+- Eliminar cuenta (3) YA
+- Crear administrador (2) YA
+- Eliminar administrador (2) YA
+
+
+Módulo de búsqueda
+- Buscar libros (2)
+
+Módulo de administración
+- Agregar libro (1)
+- Editar libro (1)
+- Eliminar libro (1)
+- Editar lector (3)
+- Eliminar lector (3)
