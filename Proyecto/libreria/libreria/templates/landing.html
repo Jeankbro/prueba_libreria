@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block titulo %}Biblioteca{% endblock %}</title>
+
+{%block contenido %}
+    <h1>¡Proyecto Biblioteca!</h1>
+    <h2>¿Qué libro quieres pedir hoy?</h2>
+    <p>Puedes encontrar el libro que quieres escribiendo su nombre o autor.</p>
+    <form method="POST"></form>
+    {% csrf_token %}
+    <label for="query">Busca un libro</label>
+    <input type="text" id="query" name="query">
+    <button type="submit">Buscar</button>
+
+    <p>O mira nuestro catálogo!</p>
+{% endblock %}
